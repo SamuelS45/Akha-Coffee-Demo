@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/Akha-Coffee-Demo/static/css/main.d188c282.css",
-    "main.js": "/Akha-Coffee-Demo/static/js/main.10c6bb7a.js",
+    "main.js": "/Akha-Coffee-Demo/static/js/main.7d5d33e7.js",
     "index.html": "/Akha-Coffee-Demo/index.html",
     "main.d188c282.css.map": "/Akha-Coffee-Demo/static/css/main.d188c282.css.map",
-    "main.10c6bb7a.js.map": "/Akha-Coffee-Demo/static/js/main.10c6bb7a.js.map"
+    "main.7d5d33e7.js.map": "/Akha-Coffee-Demo/static/js/main.7d5d33e7.js.map"
   },
   "entrypoints": [
     "static/css/main.d188c282.css",
-    "static/js/main.10c6bb7a.js"
+    "static/js/main.7d5d33e7.js"
   ]
 }

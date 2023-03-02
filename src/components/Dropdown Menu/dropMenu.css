@@ -1,0 +1,7 @@
+/* Hover for Listed Menu */
+#menu{
+    background-color: var(--pastelGreen)
+}
+#menu:hover{
+    background-color: var(--textCol);
+}

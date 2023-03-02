@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&display=swap');
+
+
+:root{
+    --mainCol: #ffffff;
+    --textCol: rgb(89, 126, 160);
+    --hoverCol: rgb(0, 49, 95);
+    --purple:#9596BB;
+    --blue:#2A2C77;
+    --yellow:rgb(255,238,218);
+    --lightPurple:#E9E9F1;
+    --lightGreen:#8DA290;
+    --pastelGreen:#bec7b4;
+    --translucentGreen:#8da29085;
+    --translucentBlue:#8d98a285;
+    --cream:#fcf1d88e;
+}
+
+
+*{
+    margin: 0%;
+    padding:  0%;
+    /* font-family: Arial, Helvetica, sans-serif; */
+    font-family: 'Quicksand', sans-serif;
+    /* color: var(--textCol); */
+
+}
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 1rem;
+    align-items: center;
+    /* background-color: lightblue; */
+    height: 100px;
+    /* width: 100%; */
+    list-style: none;
+    /* color: #8DA290; */
+    background-color: var(--mainCol);
+    position: relative;
+    box-shadow: 0px 1px 10px black;
+    /* background-color:#DEE2D9; */
+    
+    /* background: #D66D75;  fallback for old browsers */
+/* background: -webkit-linear-gradient(to right, #E29587, #D66D75);  Chrome 10-25, Safari 5.1-6 */
+/* background: linear-gradient(to right, #E29587, #D66D75); W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+/* background-image: linear-gradient( -135deg, #65FDF0 10%, #1D6FA3 100%); */
+
+}
+
+.nav-ul{
+    display: flex;
+    list-style: none;
+}
+
+.nav-li{
+    padding: 1rem;
+}
+.nav-link{
+    text-decoration: none;
+    /* color: white; */
+    color: #8DA290;
+}
+.link-active{
+    text-decoration: none;
+    color: var(--textCol);
+}
+.footer>ul{
+    position: relative;
+    bottom: 0;
+    /* width: 100VW; */
+    /* height: 2.5rem;     */
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 1rem;
+    align-items: center;
+    /* background-color: lightblue; */
+    background-color:var(--textCol);
+    height: 100px;
+    /* width: 100%; */
+    list-style: none;
+    color: white;
+}
+
+.footer-li{
+    padding: 2rem;
+}
+
+
+
+.login{
+    background-color: var(--textCol);
+    width: 20rem;
+    height: 20rem;
+    border-radius: 5px;
+}

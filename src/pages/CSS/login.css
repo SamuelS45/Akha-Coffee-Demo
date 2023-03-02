@@ -1,0 +1,16 @@
+.login{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* margin: 10rem; */
+}
+
+
+.center{
+    height:  70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}

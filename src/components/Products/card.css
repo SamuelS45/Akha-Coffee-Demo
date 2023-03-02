@@ -1,0 +1,112 @@
+
+
+.card-product{
+    display:flex; 
+    align-Items:center; 
+    justify-Content:center; 
+    flex-Direction:column;
+    width: 25vw;
+    height: 70vh;
+    box-Shadow:10px 20px 15px 10px #e0e0e0 ;
+    /* padding:1rem; */
+    margin:1rem;
+    background-Color:none;
+    border-Radius:10px;
+    /* border: 8px solid #ffe5a9; */
+    /* border: 2px solid grey; */
+    background-size: cover;
+    /* align-items: ; */
+    transition: .5s;
+    /* background-position: ; */
+}
+
+.card-product:hover{
+    display:flex; 
+    align-Items:center; 
+    justify-Content:center; 
+    flex-Direction:column;
+    width: 25vw;
+    height: 70vh;
+    border-radius:10px;
+    box-Shadow:20px 20px 5px 10px #bec7b4 ;
+    padding:0%;
+    background-Color:none;
+    /* margin: 1rem; */
+    /* border: 8px solid #ffe5a9; */
+    background-size: cover;
+    /* align-items: ; */
+    transition: .5s;
+}
+
+.info{
+    /* display: none; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    opacity: 0%;
+    height: 100%;
+    color: white;
+    transition: .5s;
+}
+.card-product:hover .info{
+    transition: .5s;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    justify-content: ;
+    opacity: 100%;
+    width: 100%;
+    margin: 0%;
+    border-radius: 10px;
+    background-image: linear-gradient(to bottom, rgba(255,0,0,0), rgb(0, 0, 0));
+    transition: .5s;
+    
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* position: ; */
+    width: 500px;
+    height: 80vh;
+    /* border: 2px solid; */
+    /* margin: 10px; */
+}
+
+.cart{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100px;
+    /* position: fixed; */
+    background-color: rgb(196, 196, 196);
+    width: 100%;
+    transition: .5s;
+}
+
+.price{
+    display: flex;
+}
+.items{
+    width: 100vw;
+}
+
+.btn-checkout{
+    height: 100%;
+}
+
+
+.btn-container{
+    /* position:relative; */
+    display: flex;
+    align-items: center;
+    height: 100px;
+}

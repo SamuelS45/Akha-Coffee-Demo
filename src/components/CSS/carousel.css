@@ -1,0 +1,15 @@
+.panel{
+    display: flex;
+    /* justify-content: fle; */
+    /* background-color: #8da29085; */
+}
+
+/* .btn:hover{
+    transform: scale(1.5);
+} */
+.icon{
+    transition: .5s;
+}
+.icon:hover{
+    transform: scale(1.2);
+}

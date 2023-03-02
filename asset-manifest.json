@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Akha-Coffee-Demo/static/css/main.d188c282.css",
+    "main.js": "/Akha-Coffee-Demo/static/js/main.a0d7fd25.js",
+    "index.html": "/Akha-Coffee-Demo/index.html",
+    "main.d188c282.css.map": "/Akha-Coffee-Demo/static/css/main.d188c282.css.map",
+    "main.a0d7fd25.js.map": "/Akha-Coffee-Demo/static/js/main.a0d7fd25.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d188c282.css",
+    "static/js/main.a0d7fd25.js"
+  ]
+}

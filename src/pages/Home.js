@@ -22,7 +22,7 @@ function Home(){
                     }}>    
             <Card
                     title='Coffee is all about passion'
-                    src='./Akha-Coffee-Demo/images/Parn.png'
+                    src='/Akha-Coffee-Demo/images/Parn.png'
                     
                     text= {<LoremIpsum p={1}/>} //lorem ipsum causes error in domNesting
                     name='Product'

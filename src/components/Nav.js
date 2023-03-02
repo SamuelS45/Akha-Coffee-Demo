@@ -17,7 +17,7 @@ function Nav(){
                 <img alt="logo" style={{
                     width:"150px",
                     cursor:'pointer'
-                }} src={'http://localhost:3000/images/logo.png'}></img>
+                }} src={'/Akha-Coffee-Demo/images/logo.png'}></img>
             {/* <h1>Akha Coffee</h1> */}
             </button>
         <ul className="nav-ul">

@@ -11,7 +11,7 @@ function Carousel(){
     let[color, setColor] = useState('')
     function change(){
         if(Index === 0){
-            setImage('http://localhost:3000/images/Banner_1.png')
+            setImage('/Akha-Coffee-Demo/images/Banner_1.png')
             setTitle('Akha Coffee')
             setText('😊From plant to Product, we are always there😊')
             setColor('var(--mainCol)')
@@ -19,7 +19,7 @@ function Carousel(){
             // Index++
             // console.log(index)
         }else if(Index === 1){
-            setImage('http://localhost:3000/images/Banner_2.png')
+            setImage('/Akha-Coffee-Demo/images/Banner_2.png')
             setTitle('Visit Our Shop')
             setText('💖We put time and love in every cup of coffee💖')
             setColor('var(--yellow)')
@@ -27,7 +27,7 @@ function Carousel(){
             // index++
             // console.log(index)
         }else if(Index === 2){
-            setImage('http://localhost:3000/images/Banner_3.png')
+            setImage('/Akha-Coffee-Demo/images/Banner_3.png')
             setTitle('Top Quality')
             setText('🌱Try our Product Line🌱')
             setColor('var(--lightPurple)')

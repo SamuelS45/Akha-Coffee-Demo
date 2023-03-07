@@ -19,7 +19,7 @@ const DropdownData = [
     },
     {
         title: 'Basic steps in cultivating coffee',
-        text:'Coffee plants are tropical evergreen shrubs that can be grown indoors or outdoors in warm climates. To plant coffee seeds, you need to prepare a rich, peat-based potting soil with good drainage and a slightly acidic pH12. You can sow one seed per container or use burlap sacks to sandwich the seeds34. You need to keep the seeds moist and shaded until they germinate, which may take several weeks53. Once the seedlings are strong enough, you can transplant them to larger pots or outdoor beds with partial shade and regular watering'
+        text:'Coffee plants are tropical evergreen shrubs that can be grown indoors or outdoors in warm climates. To plant coffee seeds, you need to prepare a rich, peat-based potting soil with good drainage and a slightly acidic pH12. You can sow one seed per container or use burlap sacks to sandwich the seeds34. You need to keep the seeds moist and shaded until they germinate, which may take several weeks53. Once the seedlings are strong enough, you can transplant them to larger pots or outdoor beds with partial shade and regular watering.'
     }
 ]
 

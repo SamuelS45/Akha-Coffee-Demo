@@ -24,6 +24,7 @@ function Nav(){
             <li className="nav-li"><NavLink className={({isActive})=>(isActive?'link-active':'nav-link')} to='/'><h2>Home</h2></NavLink></li>
             <li className="nav-li"><NavLink className={({isActive})=>(isActive?'link-active':'nav-link')} to='/about'><h2>About Us</h2></NavLink></li>
             <li className="nav-li"><NavLink className={({isActive})=>(isActive?'link-active':'nav-link')} to='/products'><h2>Products</h2></NavLink></li>
+            <li className="nav-li"><NavLink className={({isActive})=>(isActive?'link-active':'nav-link')} to='/order'><h2>Dashboard</h2></NavLink></li>
         </ul>
         <Button
         name='Log In'

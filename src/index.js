@@ -9,6 +9,7 @@ import {HashRouter, Route, Routes} from 'react-router-dom'
 import './style.css'
 import Footer from "./components/Footer";
 import LogInH from "./pages/LogInH";
+import Cart from "./pages/Cart";
 // import Menu from "./components/Menu";
 // import ListMenu from "./components/ListMenu";
 // import Timer from "./TImerClass";
@@ -28,6 +29,7 @@ root.render(
             <Route path ='/products'element={<Products/>}/>
             <Route path ='/login'element={<LogIn/>}/>
             <Route path ='/loginh'element={<LogInH/>}/>
+            <Route path ='/order'element={<Cart/>}/>
         </Routes>
     </HashRouter>
     <Footer/>

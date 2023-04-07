@@ -3,8 +3,9 @@ import './card.css'
 // import Button from "./Button";
 import ProductData from './ProductData'
 import axios from "axios";
+import { useNavigate } from "react-router";
 function Card(props){
-    
+    const navigate = useNavigate()
     return(
         <>
         <div className="container">
@@ -36,7 +37,7 @@ function Card(props){
                 </span>
                     <div className="btn-container">
 
-                    <button onClick={props.onClick} className="btn" value={props.value}>{props.name}</button>
+                    <button onClick={()=>{navigate('/order')}} className="btn" value={props.value}>{'Order'}</button>
                     </div>
                 </div>
             </div>
